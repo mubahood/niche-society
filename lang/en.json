@@ -1,0 +1,73 @@
+{
+  "site_name": "Niche Society",
+  "site_tagline": "Premium Management Solutions",
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "contact": "Contact",
+  "blog": "Blog",
+  "success_stories": "Success Stories",
+  
+  "home_title": "Niche Society - Premium Management and Organizational Solutions",
+  "home_description": "We provide comprehensive solutions for luxury property and event management with 25 years of experience serving royal families and distinguished personalities in Saudi Arabia",
+  "home_keywords": "luxury management, property management, event management, royal protocol, VIP services, Niche Society",
+  
+  "hero_title": "Niche Society",
+  "hero_subtitle": "Management and Organizational Solutions that Redefine Excellence",
+  "hero_experience": "25 Years of Experience Serving Royal Families and Distinguished Clients",
+  "explore_services": "Explore Our Services",
+  "get_consultation": "Get Consultation",
+  "contact_us": "Contact Us",
+  
+  "who_we_are": "Who We Are",
+  "our_vision": "Our Vision",
+  "our_goals": "Our Goals",
+  "our_values": "Our Values",
+  "our_services": "Our Services",
+  "our_team": "Our Team",
+  "client_testimonials": "Client Testimonials",
+  "latest_articles": "Latest Articles",
+  "all_services": "All Services",
+  "all_articles": "All Articles",
+  "learn_more": "Learn More",
+  "read_more": "Read More",
+  "meet_the_team": "Meet the Team",
+  
+  "footer_about": "Niche Society specializes in providing management and organizational solutions that redefine excellence",
+  "footer_quick_links": "Quick Links",
+  "footer_contact_info": "Contact Information",
+  "footer_follow_us": "Follow Us",
+  "footer_copyright": "© 2025 Niche Society. All rights reserved.",
+  
+  "address": "Address",
+  "phone": "Phone",
+  "email": "Email",
+  "working_hours": "Working Hours",
+  "sunday_thursday": "Sunday - Thursday: 9:00 AM - 6:00 PM",
+  
+  "name": "Name",
+  "subject": "Subject",
+  "message": "Message",
+  "send_message": "Send Message",
+  "sending": "Sending...",
+  
+  "contact_form_title": "Contact Us",
+  "contact_form_subtitle": "We're here to answer your questions and provide assistance",
+  
+  "validation_required": "This field is required",
+  "validation_email": "Please enter a valid email address",
+  "validation_phone": "Please enter a valid phone number",
+  
+  "success_message_sent": "Your message has been sent successfully! We'll contact you soon.",
+  "error_message_failed": "An error occurred while sending the message. Please try again.",
+  
+  "search_placeholder": "Search the site...",
+  "search": "Search",
+  "no_results": "No results found",
+  
+  "privacy_policy": "Privacy Policy",
+  "terms_conditions": "Terms & Conditions",
+  
+  "cta_title": "Are You Ready for an Exceptional Management Experience?",
+  "cta_subtitle": "Contact us today to begin transforming your properties and events into exceptional experiences"
+}

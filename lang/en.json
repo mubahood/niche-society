@@ -8,6 +8,13 @@
   "blog": "Blog",
   "success_stories": "Success Stories",
   
+  "nav_home": "Home",
+  "nav_about": "About Us",
+  "nav_services": "Our Services",
+  "nav_success": "Success Stories",
+  "nav_blog": "Blog",
+  "nav_contact": "Contact Us",
+  
   "home_title": "Niche Society - Premium Management and Organizational Solutions",
   "home_description": "We provide comprehensive solutions for luxury property and event management with 25 years of experience serving royal families and distinguished personalities in Saudi Arabia",
   "home_keywords": "luxury management, property management, event management, royal protocol, VIP services, Niche Society",
@@ -69,5 +76,9 @@
   "terms_conditions": "Terms & Conditions",
   
   "cta_title": "Are You Ready for an Exceptional Management Experience?",
-  "cta_subtitle": "Contact us today to begin transforming your properties and events into exceptional experiences"
+  "cta_subtitle": "Contact us today to begin transforming your properties and events into exceptional experiences",
+  
+  "service_household": "Household Management",
+  "service_events": "Event Management",
+  "service_protocol": "Protocol & Etiquette"
 }

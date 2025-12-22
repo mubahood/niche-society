@@ -68,6 +68,12 @@ body.en-lang {
     width: 100%;
     z-index: 1000;
     background: #602234 !important;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.top-bar.hidden {
+    transform: translateY(-100%);
 }
 
 .navbar.sticky-top {
@@ -78,11 +84,21 @@ body.en-lang {
     width: 100%;
     z-index: 999;
     background-color: #FFF7E7 !important;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar.sticky-top.top-bar-hidden {
+    top: 0;
 }
 
 /* Add padding to body to prevent content from hiding under fixed header */
 body {
     padding-top: 92px;
+    transition: padding-top 0.3s ease-in-out;
+}
+
+body.top-bar-hidden {
+    padding-top: 56px;
 }
 
 @media (max-width: 991px) {

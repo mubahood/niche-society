@@ -6,6 +6,40 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     // ========================================
+    // HIDE TOP BAR ON SCROLL
+    // ========================================
+    
+    let lastScrollTop = 0;
+    const topBar = document.querySelector('.top-bar');
+    const navbar = document.querySelector('.navbar.sticky-top');
+    const scrollThreshold = 100;
+    
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > scrollThreshold) {
+            if (scrollTop > lastScrollTop) {
+                // Scrolling down - hide top bar
+                topBar.classList.add('hidden');
+                navbar.classList.add('top-bar-hidden');
+                document.body.classList.add('top-bar-hidden');
+            } else {
+                // Scrolling up - show top bar
+                topBar.classList.remove('hidden');
+                navbar.classList.remove('top-bar-hidden');
+                document.body.classList.remove('top-bar-hidden');
+            }
+        } else {
+            // At top of page - always show
+            topBar.classList.remove('hidden');
+            navbar.classList.remove('top-bar-hidden');
+            document.body.classList.remove('top-bar-hidden');
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, false);
+    
+    // ========================================
     // ADVANCED TOP BAR INTERACTIONS
     // ========================================
     

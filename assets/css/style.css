@@ -123,6 +123,15 @@ body.top-bar-hidden {
     body {
         padding-top: 88px;
     }
+    
+    /* Hide contact info on mobile, keep language switcher */
+    .top-bar small {
+        display: none !important;
+    }
+    
+    .top-bar .language-switcher {
+        margin-left: auto;
+    }
 }
 
 /* Hero Section */

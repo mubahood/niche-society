@@ -59,6 +59,56 @@ body.en-lang {
     }
 }
 
+/* Fixed Header Styles */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #602234 !important;
+}
+
+.navbar.sticky-top {
+    position: fixed !important;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFF7E7 !important;
+}
+
+/* Add padding to body to prevent content from hiding under fixed header */
+body {
+    padding-top: 92px;
+}
+
+@media (max-width: 991px) {
+    .navbar.sticky-top {
+        top: 36px;
+    }
+    
+    body {
+        padding-top: 92px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-bar {
+        position: fixed;
+    }
+    
+    .navbar.sticky-top {
+        top: 36px;
+    }
+    
+    body {
+        padding-top: 88px;
+    }
+}
+
 /* Hero Section */
 .hero-premium {
     position: relative;

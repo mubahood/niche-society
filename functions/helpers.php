@@ -12,6 +12,28 @@ function getCurrentLang() {
 }
 
 /**
+ * Alias for getCurrentLang() - for backward compatibility
+ */
+function getCurrentLanguage() {
+    return getCurrentLang();
+}
+
+/**
+ * Get text direction based on language
+ */
+function getTextDirection($lang = null) {
+    $lang = $lang ?? getCurrentLang();
+    return $lang === 'ar' ? 'rtl' : 'ltr';
+}
+
+/**
+ * Get all translations for a language
+ */
+function getTranslations($lang = null) {
+    return loadTranslations($lang);
+}
+
+/**
  * Set current language
  */
 function setLanguage($lang) {
@@ -100,6 +122,18 @@ function getCurrentUrl() {
 }
 
 /**
+ * Generate full URL for a given path
+ */
+function url($path = '') {
+    if (empty($path)) {
+        return SITE_URL;
+    }
+    // Remove leading slash if present
+    $path = ltrim($path, '/');
+    return SITE_URL . '/' . $path;
+}
+
+/**
  * Check if current page is active
  */
 function isActive($page) {
@@ -178,6 +212,13 @@ function generateMetaTags($title, $description, $keywords = '', $image = '') {
     echo "<meta name='twitter:card' content='summary_large_image'>\n";
     echo "<meta name='twitter:title' content='$title'>\n";
     echo "<meta name='twitter:description' content='$description'>\n";
+}
+
+/**
+ * Alias for generateMetaTags() - for backward compatibility
+ */
+function getMetaTags($title, $description, $url = '', $image = '') {
+    generateMetaTags($title, $description, '', $image);
 }
 
 /**

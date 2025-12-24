@@ -20,8 +20,8 @@
  * @version 2.0
  */
 
-// Prevent direct access
-if (!defined('ROOT_PATH')) {
+// Prevent direct access to this file
+if (!defined('SITE_NAME') && !defined('SITE_URL')) {
     die('Direct access not permitted');
 }
 
@@ -955,25 +955,6 @@ function getImagePath($filename, $folder = '') {
 // ============================================================
 // SECTION 10: URL & ROUTING FUNCTIONS
 // ============================================================
-
-/**
- * Generate URL with language support
- * 
- * @param string $path Path without leading slash
- * @param array $params Query parameters
- * @return string Complete URL
- * 
- * @example
- * echo url('services.php'); // https://site.com/services.php?lang=ar
- * echo url('blog.php', ['category' => 'news']); // .../blog.php?lang=ar&category=news
- */
-function url($path, $params = []) {
-    $lang = getCurrentLang();
-    $params['lang'] = $lang;
-    
-    $queryString = http_build_query($params);
-    return SITE_URL . '/' . ltrim($path, '/') . '?' . $queryString;
-}
 
 /**
  * Get asset URL (CSS, JS, images)

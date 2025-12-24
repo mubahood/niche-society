@@ -482,6 +482,173 @@ generateMetaTags($pageTitle, $pageDescription, $pageKeywords, 'niche-society-hom
     </div>
 </section>
 
+<!-- ISO Certification Banner -->
+<section class="iso-banner">
+    <div class="container">
+        <div class="iso-grid">
+            <div class="iso-item" data-aos="fade-up" data-aos-delay="0">
+                <div class="iso-number"><?php echo t('iso_years', '+25 عامًا'); ?></div>
+                <div class="iso-label"><?php echo t('iso_years_desc', 'من التميز في خدمة العائلات الملكية'); ?></div>
+            </div>
+            
+            <div class="iso-item iso-highlight" data-aos="fade-up" data-aos-delay="100">
+                <div class="iso-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 4L27.09 16.26L39.17 12.83L32.49 23.51L44 27.5L33.09 33.74L36.52 45.83L24 39.15L11.48 45.83L14.91 33.74L4 27.5L15.51 23.51L8.83 12.83L20.91 16.26L24 4Z" fill="#602234" stroke="#602234" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="iso-number"><?php echo t('iso_certified', 'معتمدون ISO 9001'); ?></div>
+                <div class="iso-label"><?php echo t('iso_cert_number', 'شهادة رقم: 25EQQN01'); ?></div>
+            </div>
+            
+            <div class="iso-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="iso-number"><?php echo t('iso_royal', 'عملاء ملكيون'); ?></div>
+                <div class="iso-label"><?php echo t('iso_royal_desc', 'موثوقون من قبل عائلات رفيعة'); ?></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Statistics Section -->
+<section class="stats-section">
+    <div class="container">
+        <div class="section-badge" data-aos="fade-up"><?php echo t('stats_badge', 'تأثيرنا'); ?></div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100"><?php echo t('stats_title', 'التميز المثبت بالأرقام'); ?></h2>
+        
+        <div class="stats-grid">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                <div class="stat-number"><?php echo t('stat1_number', '+25'); ?></div>
+                <div class="stat-label"><?php echo t('stat1_label', 'عامًا من الخبرة'); ?></div>
+            </div>
+            
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-number"><?php echo t('stat2_number', '+100'); ?></div>
+                <div class="stat-label"><?php echo t('stat2_label', 'عقار تحت الإدارة'); ?></div>
+            </div>
+            
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-number"><?php echo t('stat3_number', '+500'); ?></div>
+                <div class="stat-label"><?php echo t('stat3_label', 'فعالية منفذة بنجاح'); ?></div>
+            </div>
+            
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-number"><?php echo t('stat4_number', '99%'); ?></div>
+                <div class="stat-label"><?php echo t('stat4_label', 'رضا العملاء'); ?></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="why-section">
+    <div class="container">
+        <div class="section-badge" data-aos="fade-up"><?php echo t('why_badge', 'لماذا نيش سوسايتي'); ?></div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100"><?php echo t('why_title', 'فرق نيش سوسايتي'); ?></h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200"><?php echo t('why_subtitle', 'نحن لا نكتفي بالإدارة، بل نهندس تجارب استثنائية'); ?></p>
+        
+        <div class="why-grid">
+            <div class="why-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="why-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="8" width="24" height="24" stroke="#602234" stroke-width="2"/>
+                        <path d="M15 20L18 23L25 16" stroke="#602234" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3><?php echo t('why1_title', 'سرية مطلقة'); ?></h3>
+                <p><?php echo t('why1_desc', 'نعمل من وراء الكواليس مع احترام تام للخصوصية والمساحات الشخصية'); ?></p>
+            </div>
+            
+            <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="why-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="12" stroke="#602234" stroke-width="2"/>
+                        <circle cx="20" cy="20" r="6" stroke="#602234" stroke-width="2"/>
+                        <circle cx="20" cy="20" r="2" fill="#602234"/>
+                    </svg>
+                </div>
+                <h3><?php echo t('why2_title', 'دقة لا تقبل التنازل'); ?></h3>
+                <p><?php echo t('why2_desc', 'ننفذ كل مهمة وكأنها الأولى، ونتعامل مع كل تفصيلة وكأنها الأهم'); ?></p>
+            </div>
+            
+            <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="why-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8L28 8L32 12L32 28L28 32L12 32L8 28L8 12L12 8Z" stroke="#602234" stroke-width="2"/>
+                        <path d="M16 20L20 24L24 16" stroke="#602234" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3><?php echo t('why3_title', 'حلول مخصصة'); ?></h3>
+                <p><?php echo t('why3_desc', 'خدمات مصممة خصيصًا بحسب رؤيتكم وطموحاتكم'); ?></p>
+            </div>
+            
+            <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="why-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="14" stroke="#602234" stroke-width="2"/>
+                        <path d="M20 10V20L26 26" stroke="#602234" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3><?php echo t('why4_title', 'تميز على مدار الساعة'); ?></h3>
+                <p><?php echo t('why4_desc', 'دعم مستمر وتوفر دائم عندما تحتاجوننا'); ?></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Showcase Section -->
+<section class="team-section">
+    <div class="container">
+        <div class="team-content">
+            <div class="team-text" data-aos="fade-<?php echo getCurrentLang() === 'ar' ? 'left' : 'right'; ?>">
+                <div class="section-badge"><?php echo t('team_badge', 'فريقنا'); ?></div>
+                <h2><?php echo t('team_title', 'محترفون ملتزمون بالتميز'); ?></h2>
+                <p><?php echo t('team_desc', 'خبراء متخصصون في إدارة الممتلكات الفاخرة والفعاليات الرفيعة. نعمل بصمت، ننفذ بدقة، ونسلم بتميز.'); ?></p>
+                <a href="javascript:void(0)" class="btn-primary">
+                    <?php echo t('team_cta', 'تعرف على فريقنا'); ?>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M<?php echo getCurrentLang() === 'ar' ? '12 4L6 10L12 16' : '8 4L14 10L8 16'; ?>" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="team-image" data-aos="fade-<?php echo getCurrentLang() === 'ar' ? 'right' : 'left'; ?>">
+                <img src="assets/images/TEAM-scaled.jpg" alt="<?php echo t('team_title', 'محترفون ملتزمون بالتميز'); ?>">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final Call-to-Action Section -->
+<section class="final-cta-section">
+    <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+            <div class="section-badge"><?php echo t('cta_badge', 'ابدأ الآن'); ?></div>
+            <h2><?php echo t('cta_title', 'هل أنتم مستعدون لتجربة إدارة استثنائية؟'); ?></h2>
+            <p><?php echo t('cta_subtitle', 'تواصلوا معنا اليوم لنبدأ رحلة تحويل ممتلكاتكم وفعالياتكم إلى تجارب استثنائية'); ?></p>
+            
+            <div class="cta-actions">
+                <a href="#contact" class="btn-primary btn-large">
+                    <?php echo t('cta_button', 'احصل على استشارة مجانية'); ?>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M<?php echo getCurrentLang() === 'ar' ? '14 6L8 12L14 18' : '10 6L16 12L10 18'; ?>" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                    </svg>
+                </a>
+                
+                <div class="cta-or"><?php echo t('cta_or', 'أو'); ?></div>
+                
+                <a href="tel:<?php echo CONTACT_PHONE; ?>" class="btn-secondary btn-large">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                        <path d="M9 7H15" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="12" cy="16" r="1.5" fill="currentColor"/>
+                    </svg>
+                    <?php echo t('cta_call', 'اتصل بنا الآن'); ?>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

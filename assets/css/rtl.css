@@ -148,3 +148,38 @@
 [dir="rtl"] p {
     line-height: 2;
 }
+
+/* ISO Banner */
+[dir="rtl"] .iso-highlight::before {
+    right: 0;
+    left: 50%;
+    transform: translateX(50%);
+}
+
+[dir="rtl"] .iso-highlight::after {
+    left: 0;
+    right: auto;
+}
+
+/* Team Section */
+[dir="rtl"] .team-image::before {
+    right: 20px;
+    left: -20px;
+}
+
+@media (max-width: 767px) {
+    [dir="rtl"] .team-image::before {
+        right: 10px;
+        left: -10px;
+    }
+}
+
+/* Buttons */
+[dir="rtl"] .btn-primary svg,
+[dir="rtl"] .btn-secondary svg {
+    transform: scaleX(-1);
+}
+
+[dir="rtl"] .cta-actions {
+    direction: rtl;
+}

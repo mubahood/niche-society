@@ -118,5 +118,48 @@
   "service3_feat3": "Development of professional presence and personal style",
   
   "learn_more": "Learn More",
-  "view_all_services": "View All Services"
+  "view_all_services": "View All Services",
+  
+  "iso_badge": "Excellence & Trust",
+  "iso_years": "25+ Years",
+  "iso_years_desc": "Of Excellence Serving Royal Families",
+  "iso_certified": "ISO 9001 Certified",
+  "iso_cert_number": "Certificate #25EQQN01",
+  "iso_royal": "Royal Clientele",
+  "iso_royal_desc": "Trusted by Distinguished Families",
+  
+  "stats_badge": "Our Impact",
+  "stats_title": "Proven Excellence Through Numbers",
+  "stat1_number": "25+",
+  "stat1_label": "Years of Experience",
+  "stat2_number": "100+",
+  "stat2_label": "Properties Managed",
+  "stat3_number": "500+",
+  "stat3_label": "Events Executed",
+  "stat4_number": "99%",
+  "stat4_label": "Client Satisfaction",
+  
+  "why_badge": "Why Choose Us",
+  "why_title": "The Niche Society Difference",
+  "why_subtitle": "We don't just manage, we engineer exceptional experiences",
+  "why1_title": "Absolute Discretion",
+  "why1_desc": "We operate behind the scenes with complete respect for privacy and personal spaces",
+  "why2_title": "Uncompromising Precision",
+  "why2_desc": "Every task executed as if it were the first, every detail treated as the most important",
+  "why3_title": "Tailored Solutions",
+  "why3_desc": "Customized services designed according to your vision and aspirations",
+  "why4_title": "24/7 Excellence",
+  "why4_desc": "Continuous support and availability whenever you need us",
+  
+  "team_badge": "Our Team",
+  "team_title": "Professionals Dedicated to Excellence",
+  "team_desc": "Expert specialists in luxury property and event management. We work quietly, execute precisely, and deliver with distinction.",
+  "team_cta": "Meet Our Team",
+  
+  "cta_badge": "Get Started",
+  "cta_title": "Ready for an Exceptional Management Experience?",
+  "cta_subtitle": "Contact us today to begin transforming your properties and events into extraordinary experiences",
+  "cta_button": "Get Free Consultation",
+  "cta_or": "or",
+  "cta_call": "Call Us Now"
 }

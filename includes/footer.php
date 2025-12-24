@@ -508,7 +508,7 @@ $isArabic = ($lang === 'ar');
                     </li>
                     <li class="footer-contact-item">
                         <i class="bi bi-telephone-fill"></i>
-                        <span>+966 XX XXX XXXX</span>
+                        <span><?php echo CONTACT_PHONE; ?></span>
                     </li>
                     <li class="footer-contact-item">
                         <i class="bi bi-envelope-fill"></i>

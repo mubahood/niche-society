@@ -62,7 +62,7 @@ $translations = loadTranslations($lang);
             <small style="color: #FFF7E7 !important; font-size: 12px; white-space: nowrap;">
                 <i class="bi bi-envelope" style="color: #FFF7E7 !important; font-size: 12px; margin-right: 6px;"></i><?php echo CONTACT_EMAIL; ?>
                 <span style="margin: 0 12px;">|</span>
-                <i class="bi bi-telephone" style="color: #FFF7E7 !important; font-size: 12px; margin-right: 6px;"></i>+966 XX XXX XXXX
+                <i class="bi bi-telephone" style="color: #FFF7E7 !important; font-size: 12px; margin-right: 6px;"></i><?php echo CONTACT_PHONE; ?>
             </small>
             <div class="language-switcher" style="display: inline-flex; gap: 0; white-space: nowrap;">
                 <a href="?lang=ar" class="lang-link <?php echo ($lang === 'ar') ? 'active' : ''; ?>" style="color: #FFF7E7 !important; padding: 2px 10px; font-size: 12px; font-weight: <?php echo ($lang === 'ar') ? '600' : '400'; ?>; border-bottom: <?php echo ($lang === 'ar') ? '2px solid #FFF7E7' : '2px solid transparent'; ?>; transition: all 0.3s ease; text-decoration: none;">AR</a>

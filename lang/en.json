@@ -80,5 +80,43 @@
   
   "service_household": "Household Management",
   "service_events": "Event Management",
-  "service_protocol": "Protocol & Etiquette"
+  "service_protocol": "Protocol & Etiquette",
+  
+  "pillars_badge": "What Drives Us",
+  "philosophy_main_title": "Our Philosophy",
+  "philosophy_subtitle": "We don't just provide services, we build a legacy of excellence and professionalism",
+  
+  "vision_title": "Our Vision",
+  "vision_text": "To be the first reference in providing administrative and organizational solutions that redefine the meaning of premium management, through services that are executed quietly, designed according to context, and managed with confidence. We aspire to transform every location and every role into an integrated system that embodies quiet luxury and expresses its owners, because we do not provide ready-made services, but engineer the experience from scratch and elevate it to an unprecedented level.",
+  
+  "goals_title": "Our Goals",
+  "goals_text": "To simplify complexity and rearrange the scene in a way that adds real value to every moment, and to provide unlimited services that include operations management, logistics coordination, protocol organization, and executive support, from behind the scenes to the finest details, to transform every experience into a smooth, elegant journey designed according to the client's vision and aspirations.",
+  
+  "values_title": "Our Values",
+  "values_text": "1. Privacy: We manage everything behind the scenes, with complete respect for personal spaces, because quietness is the essence of luxury, and trust begins with thoughtful silence. 2. Precision: We execute every task as if it were the first, and treat every detail as if it were the most important, because excellence is not an option, but a work style. 3. Trust: We build it through consistent performance and unsolicited transparency, because the relationship with Niche Society begins with reassurance and continues with stability. 4. Luxury: Not in form, but in feeling. We design every experience to resemble its owners, express them, and be presented with an elegant spirit and calculated touch. 5. Harmony: Everything at Niche Society works in harmony: teams, systems, and services; because we don't just manage, we coordinate life to transform into an exceptional experience that expresses its owners.",
+  
+  "services_badge": "Our Services",
+  "services_title": "Integrated Solutions for Exceptional Management",
+  "services_subtitle": "We provide specialized solutions that combine precision, privacy, and elegance",
+  
+  "service1_title": "Smart Property Management Services",
+  "service1_desc": "We transform every property into an integrated system managed through smart systems and coordinated through effective communication, keeping you continuously informed of all details without hassle or complexity.",
+  "service1_feat1": "Establishment of a comprehensive internal system for all operations",
+  "service1_feat2": "Management and evaluation of daily operations",
+  "service1_feat3": "Digital control panels and customized reports",
+  
+  "service2_title": "Event Management",
+  "service2_desc": "From private gatherings to grand celebrations, we design the overall impression and oversee every detail to reflect elegance in atmosphere and privacy in execution.",
+  "service2_feat1": "Design specialized experiences for every type of event",
+  "service2_feat2": "Manage logistics with precision and efficiency",
+  "service2_feat3": "On-site supervision and professional team coordination",
+  
+  "service3_title": "Protocol & The Art of Etiquette",
+  "service3_desc": "We provide tailored advisory and training programs to enhance communication and behavior in formal and everyday settings, focusing on personal style and diplomatic presence.",
+  "service3_feat1": "Training programs in the art of diplomatic communication",
+  "service3_feat2": "Consulting in formal conduct and public relations",
+  "service3_feat3": "Development of professional presence and personal style",
+  
+  "learn_more": "Learn More",
+  "view_all_services": "View All Services"
 }
